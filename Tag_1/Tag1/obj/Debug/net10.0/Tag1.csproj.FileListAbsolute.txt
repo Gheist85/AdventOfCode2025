@@ -1,0 +1,14 @@
+D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\bin\Debug\net10.0\Tag1.exe
+D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\bin\Debug\net10.0\Tag1.deps.json
+D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\bin\Debug\net10.0\Tag1.runtimeconfig.json
+D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\bin\Debug\net10.0\Tag1.dll
+D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\bin\Debug\net10.0\Tag1.pdb
+D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\obj\Debug\net10.0\Tag1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\obj\Debug\net10.0\Tag1.AssemblyInfoInputs.cache
+D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\obj\Debug\net10.0\Tag1.AssemblyInfo.cs
+D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\obj\Debug\net10.0\Tag1.csproj.CoreCompileInputs.cache
+D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\obj\Debug\net10.0\Tag1.dll
+D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\obj\Debug\net10.0\refint\Tag1.dll
+D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\obj\Debug\net10.0\Tag1.pdb
+D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\obj\Debug\net10.0\Tag1.genruntimeconfig.cache
+D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\obj\Debug\net10.0\ref\Tag1.dll
