@@ -12,3 +12,4 @@ D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\obj\Debug\net10.0\refint\Tag1.dll
 D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\obj\Debug\net10.0\Tag1.pdb
 D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\obj\Debug\net10.0\Tag1.genruntimeconfig.cache
 D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\obj\Debug\net10.0\ref\Tag1.dll
+D:\Programmieren\AdventOf Code 2025\Tag_1\Tag1\obj\Debug\net10.0\Tag1.sourcelink.json

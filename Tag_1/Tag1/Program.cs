@@ -1,4 +1,6 @@
-﻿string TestInput = @"L68 
+﻿using System.Formats.Asn1;
+
+string TestInput = @"L68 
 L30
 R48
 L5
@@ -4762,15 +4764,12 @@ R16
 R30
 R2";
 
-List<string> SplitInput = InputDivider(TestInput);
-// List<string> SplitInput = InputDivider(PuzzleInput);
+// List<string> SplitInput = InputDivider(TestInput);
+List<string> SplitInput = InputDivider(PuzzleInput);
 int HowManyTimesZero = GetCodeSequence(SplitInput);
 
 System.Console.WriteLine(HowManyTimesZero);
 Console.ReadKey();
-
-
-
 
 
 static List<string> InputDivider(string input)
@@ -4780,41 +4779,46 @@ static List<string> InputDivider(string input)
 }
 
 static int GetCodeSequence(List<string> SplitInput)
-{
-  List<int> ResultList = new List<int>();
+{  
   int dial = 50;
   int result = 0;
   foreach (string DialRotation in SplitInput)
   {
           string Direction = DialRotation.Substring(0,1);
           int RotationWidth = int.Parse(DialRotation.Substring(1));
-          while (RotationWidth > 100)
+          int startDial = dial;
+          if (RotationWidth > 100)
           {
-             result = result + (RotationWidth /100);
-             RotationWidth = RotationWidth % 100;   
+             if (RotationWidth % 100 == 0)
+             {result = result + (RotationWidth /100); continue;}
+             else
+             {result = result + (RotationWidth /100);
+             RotationWidth = RotationWidth % 100; }
           }
           if (Direction == "L")
         {
             dial = dial - RotationWidth;
-            if (dial < 0  )            
-            {dial = 100 + dial; result++;}
-            ResultList.Add(dial);
+            if (dial == 0 ) {result++;}
+            else if (dial < 0  )            
+            {
+            dial = 100 + dial; 
+            if ( startDial != 0)
+            {result++;}
+            }
+            
         }
           else
         {
             dial = dial + RotationWidth;
             if (dial == 100)
-            {dial = 0;}
+            {dial = 0; result ++;}
             else if (dial > 100)            
-            {dial = -1 + (dial -100); result++;}
-            ResultList.Add(dial);
+            {
+            dial = dial -100;
+            if ( startDial != 0)
+            {result++;}
+            }            
         }
   }   
-    foreach (int i in ResultList)
-        {
-            System.Console.WriteLine(i);
-            if (i == 0)
-            {result++;}
-        }
   return result;  
 }
