@@ -1,5 +1,5 @@
 ﻿using System.Formats.Asn1;
-
+#region Döner
 string TestInput = @"L68 
 L30
 R48
@@ -4763,6 +4763,8 @@ L46
 R16
 R30
 R2";
+
+#endregion
 
 // List<string> SplitInput = InputDivider(TestInput);
 List<string> SplitInput = InputDivider(PuzzleInput);
