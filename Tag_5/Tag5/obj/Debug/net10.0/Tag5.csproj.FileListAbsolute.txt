@@ -1,0 +1,15 @@
+D:\Programmieren\AdventOfCode2025\Tag_5\Tag5\obj\Debug\net10.0\Tag5.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programmieren\AdventOfCode2025\Tag_5\Tag5\obj\Debug\net10.0\Tag5.AssemblyInfoInputs.cache
+D:\Programmieren\AdventOfCode2025\Tag_5\Tag5\obj\Debug\net10.0\Tag5.AssemblyInfo.cs
+D:\Programmieren\AdventOfCode2025\Tag_5\Tag5\obj\Debug\net10.0\Tag5.csproj.CoreCompileInputs.cache
+D:\Programmieren\AdventOfCode2025\Tag_5\Tag5\obj\Debug\net10.0\Tag5.sourcelink.json
+D:\Programmieren\AdventOfCode2025\Tag_5\Tag5\bin\Debug\net10.0\Tag5.exe
+D:\Programmieren\AdventOfCode2025\Tag_5\Tag5\bin\Debug\net10.0\Tag5.deps.json
+D:\Programmieren\AdventOfCode2025\Tag_5\Tag5\bin\Debug\net10.0\Tag5.runtimeconfig.json
+D:\Programmieren\AdventOfCode2025\Tag_5\Tag5\bin\Debug\net10.0\Tag5.dll
+D:\Programmieren\AdventOfCode2025\Tag_5\Tag5\bin\Debug\net10.0\Tag5.pdb
+D:\Programmieren\AdventOfCode2025\Tag_5\Tag5\obj\Debug\net10.0\Tag5.dll
+D:\Programmieren\AdventOfCode2025\Tag_5\Tag5\obj\Debug\net10.0\refint\Tag5.dll
+D:\Programmieren\AdventOfCode2025\Tag_5\Tag5\obj\Debug\net10.0\Tag5.pdb
+D:\Programmieren\AdventOfCode2025\Tag_5\Tag5\obj\Debug\net10.0\Tag5.genruntimeconfig.cache
+D:\Programmieren\AdventOfCode2025\Tag_5\Tag5\obj\Debug\net10.0\ref\Tag5.dll
