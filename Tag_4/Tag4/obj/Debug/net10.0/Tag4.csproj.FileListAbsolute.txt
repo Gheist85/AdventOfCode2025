@@ -1,0 +1,15 @@
+D:\Programmieren\AdventOfCode2025\Tag_4\Tag4\bin\Debug\net10.0\Tag4.exe
+D:\Programmieren\AdventOfCode2025\Tag_4\Tag4\bin\Debug\net10.0\Tag4.deps.json
+D:\Programmieren\AdventOfCode2025\Tag_4\Tag4\bin\Debug\net10.0\Tag4.runtimeconfig.json
+D:\Programmieren\AdventOfCode2025\Tag_4\Tag4\bin\Debug\net10.0\Tag4.dll
+D:\Programmieren\AdventOfCode2025\Tag_4\Tag4\bin\Debug\net10.0\Tag4.pdb
+D:\Programmieren\AdventOfCode2025\Tag_4\Tag4\obj\Debug\net10.0\Tag4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programmieren\AdventOfCode2025\Tag_4\Tag4\obj\Debug\net10.0\Tag4.AssemblyInfoInputs.cache
+D:\Programmieren\AdventOfCode2025\Tag_4\Tag4\obj\Debug\net10.0\Tag4.AssemblyInfo.cs
+D:\Programmieren\AdventOfCode2025\Tag_4\Tag4\obj\Debug\net10.0\Tag4.csproj.CoreCompileInputs.cache
+D:\Programmieren\AdventOfCode2025\Tag_4\Tag4\obj\Debug\net10.0\Tag4.sourcelink.json
+D:\Programmieren\AdventOfCode2025\Tag_4\Tag4\obj\Debug\net10.0\Tag4.dll
+D:\Programmieren\AdventOfCode2025\Tag_4\Tag4\obj\Debug\net10.0\refint\Tag4.dll
+D:\Programmieren\AdventOfCode2025\Tag_4\Tag4\obj\Debug\net10.0\Tag4.pdb
+D:\Programmieren\AdventOfCode2025\Tag_4\Tag4\obj\Debug\net10.0\Tag4.genruntimeconfig.cache
+D:\Programmieren\AdventOfCode2025\Tag_4\Tag4\obj\Debug\net10.0\ref\Tag4.dll

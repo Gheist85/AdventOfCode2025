@@ -212,8 +212,8 @@ string PuzzleInput = @"125244222121321222222222222221121214235122411222122221221
 #endregion
 
 
-long PuzzleAnswer = GiveMaximumCurrent(SplitIntoBanks(TestInput));
-// long PuzzleAnswer = GiveMaximumCurrent(SplitIntoBanks(PuzzleInput));
+// long PuzzleAnswer = GiveMaximumCurrent(SplitIntoBanks(TestInput));
+long PuzzleAnswer = GiveMaximumCurrent(SplitIntoBanks(PuzzleInput));
 System.Console.WriteLine(PuzzleAnswer);
 
 
@@ -248,24 +248,24 @@ static long GiveMaximumCurrent(List<int[]> ListOfBatteryBanks)
             int[] TwelveMonkeyBatteries = new int[12];
             for (int i = 0 ; i < TwelveMonkeyBatteries.Length; i++)
             {TwelveMonkeyBatteries[i] = -1;}
-            int counter = 12;
+            int counter = K;
             while (counter > 0)
             { 
-            for ( int i = 9; i > 0 ; i--)
+                bool placed = false;
+            for ( int i = 9; i >= 0 && !placed ; i--)
                 {                   
                     for (int j = index ; j < bank.Length - (counter-1); j++)
                     {
                         if (bank[j] == i)
                         {
                             TwelveMonkeyBatteries[12-counter] = i;
-                            counter--;
-                            index = j;
-                            break;
+                            counter--;                        
+                            index = j+1;       
+                            placed = true;
+                            break;                     
                         }           
-                    }                
-                }
-                if (TwelveMonkeyBatteries[12-counter] != 0)
-                {break;}
+                    }                                      
+                }               
             
             }
             for (int i = 11; i > -1 ; i--)
