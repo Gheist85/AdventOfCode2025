@@ -1119,7 +1119,7 @@ for (int i = 0; i<3;i++)
 System.Console.WriteLine($"the Number we are looking for in Part1: {result}");
 
 // Part2
-int result2 = 0;
+long result2 = 0;
 
 // Parse Input into List of all Junction Boxes and make sorted List of all possible Combiniations
 List<JunctionBox> Part2JunctionBoxes = SplitInputIntoListOfJunctionBoxes(PuzzleInput);
@@ -1167,6 +1167,6 @@ foreach (JunctionBox jb in Part2JunctionBoxes)
     }
 
 // Calculate result and Output
-result2 = lastEdge.Item1.x * lastEdge.Item2.x;
+result2 = (long)lastEdge.Item1.x * lastEdge.Item2.x;
 System.Console.WriteLine($"The Result from Part2 is: {result2}");
 Console.ReadKey();
